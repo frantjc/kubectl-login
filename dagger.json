@@ -1,0 +1,40 @@
+{
+  "name": "kubectl-login-dev",
+  "engineVersion": "v0.21.7",
+  "sdk": {
+    "source": "go",
+    "experimental": {
+      "SELF_CALLS": true
+    }
+  },
+  "toolchains": [
+    {
+      "name": "go",
+      "source": "github.com/frantjc/daggerverse/go@d58bac4930335c29cbeb42a516346ccf9c38fc47",
+      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "archive",
+      "source": "github.com/frantjc/daggerverse/archive@d58bac4930335c29cbeb42a516346ccf9c38fc47",
+      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+    },
+    {
+      "name": "gh",
+      "source": "github.com/frantjc/daggerverse/gh@d58bac4930335c29cbeb42a516346ccf9c38fc47",
+      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+    },
+    {
+      "name": "mise",
+      "source": "github.com/frantjc/daggerverse/mise@d58bac4930335c29cbeb42a516346ccf9c38fc47",
+      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+    },
+    {
+      "name": "upx",
+      "source": "github.com/frantjc/daggerverse/upx@d58bac4930335c29cbeb42a516346ccf9c38fc47",
+      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+    }
+  ],
+  "source": ".dagger"
+}

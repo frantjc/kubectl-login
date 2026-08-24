@@ -1,0 +1,22 @@
+name: Release
+on:
+  push:
+    tags:
+      # Rough semantic version regexp to only create releases
+      # on complete semantic versions e.g. v1.0.0, but not v1.
+      - v[0-9]+.[0-9]+.[0-9]+*
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+        with:
+          install_args: dagger
+      - env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          dagger call release
+          --github-token env://GITHUB_TOKEN
