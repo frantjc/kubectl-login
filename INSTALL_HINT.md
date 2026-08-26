@@ -7,4 +7,4 @@ go install https://github.com/frantjc/kubectl-login/cmd/kubectl-login@main
 mise use --global github:frantjc/kubectl-login
 ```
 
-[Set up `aws`](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html).
+If using AWS OIDC, [set up `aws` >= v2.32.5](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html).

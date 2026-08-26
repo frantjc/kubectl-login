@@ -32,6 +32,7 @@ jwt:
       username:
         claim: actor
         prefix: "github-actions:"
+# ...
 ---
 # ~/.kube/config
 apiVersion: v1

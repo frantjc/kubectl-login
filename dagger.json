@@ -10,30 +10,35 @@
   "toolchains": [
     {
       "name": "go",
-      "source": "github.com/frantjc/daggerverse/go@d58bac4930335c29cbeb42a516346ccf9c38fc47",
-      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+      "source": "github.com/frantjc/daggerverse/go@main",
+      "pin": "348370fdd7cb9328cd482a8f2b32488f0412e43c"
     }
   ],
   "dependencies": [
     {
       "name": "archive",
-      "source": "github.com/frantjc/daggerverse/archive@d58bac4930335c29cbeb42a516346ccf9c38fc47",
-      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+      "source": "github.com/frantjc/daggerverse/archive@main",
+      "pin": "348370fdd7cb9328cd482a8f2b32488f0412e43c"
     },
     {
       "name": "gh",
-      "source": "github.com/frantjc/daggerverse/gh@d58bac4930335c29cbeb42a516346ccf9c38fc47",
-      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+      "source": "github.com/frantjc/daggerverse/gh@main",
+      "pin": "348370fdd7cb9328cd482a8f2b32488f0412e43c"
+    },
+    {
+      "name": "go",
+      "source": "github.com/frantjc/daggerverse/go@main",
+      "pin": "348370fdd7cb9328cd482a8f2b32488f0412e43c"
     },
     {
       "name": "mise",
-      "source": "github.com/frantjc/daggerverse/mise@d58bac4930335c29cbeb42a516346ccf9c38fc47",
-      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+      "source": "github.com/frantjc/daggerverse/mise@main",
+      "pin": "348370fdd7cb9328cd482a8f2b32488f0412e43c"
     },
     {
       "name": "upx",
-      "source": "github.com/frantjc/daggerverse/upx@d58bac4930335c29cbeb42a516346ccf9c38fc47",
-      "pin": "d58bac4930335c29cbeb42a516346ccf9c38fc47"
+      "source": "github.com/frantjc/daggerverse/upx@main",
+      "pin": "348370fdd7cb9328cd482a8f2b32488f0412e43c"
     }
   ],
   "source": ".dagger"

@@ -3,6 +3,7 @@ module github.com/frantjc/kubectl-login
 go 1.26.6
 
 require (
+	github.com/Masterminds/semver v1.5.0
 	github.com/frantjc/x v0.0.0-20260722143507-f0d6bf085932
 	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/spf13/cobra v1.10.2

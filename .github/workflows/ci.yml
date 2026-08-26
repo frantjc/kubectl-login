@@ -22,4 +22,7 @@ jobs:
         with:
           install_args: dagger
       - run: dagger check
-
+      - name: Export kubectl-login
+        run: dagger call binary export --path ${{ runner.temp }}/kubectl-login
+      - name: Exec kubectl-login
+        run: ${{ runner.temp }}/kubectl-login --audience frantj.cc

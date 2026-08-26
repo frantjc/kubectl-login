@@ -26,7 +26,6 @@ func (m *KubectlLoginDev) Binary(
 		Workspace: workspace,
 	}).
 		Build(dagger.GoBuildOpts{
-			Workspace: workspace,
 			Ldflags:   "-s -w -X main.version=" + version,
 			Pkg:       "./cmd/kubectl-login",
 			Goos:      goos,
