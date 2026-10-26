@@ -8,7 +8,7 @@ See [install hint](./INSTALL_HINT.md).
 
 ## use
 
-Pass the former to your cluster's kube-apiserver's `--authentication-config` flag and use the latter's user in your `~/.kube/config`'s `current-context`. Such a 
+Pass the former to your cluster's kube-apiserver's `--authentication-config` flag and use the latter's user in your `~/.kube/config`'s `current-context`. 
 
 ```yaml
 ---
